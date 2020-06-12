@@ -13,11 +13,11 @@
 <thead>
   <tr>
     <th>Every Statement</th>
-    <th>user1</th>
-    <th>user2</th>
-    <th>user3</th>
-    <th>user4</th>
-    <th>user5</th>
+    <th>User user1= null , allUsers = anything</th>
+    <th>User user2 = new User(null,“Anything”, “antonio_trajkovski12@yahoo.com”),  allUsers=anything</th>
+    <th>User user3 = new User(“Antonio” ,“Anything”, null)  allUsers=[James, Dave] </th>
+    <th>User user4 = new User(“Antonio” ,“Anything”, “ antonio_trajkovski12@yahoo.com”),  allUsers=[James, Dave]</th>
+    <th>User user5 = new User(“Antonio” ,“Anything”, “ antonio_trajkovski12@yahoocom”),  allUsers=[James, Dave]</th>
   </tr>
 </thead>
 <tbody>
